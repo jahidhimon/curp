@@ -1,4 +1,4 @@
-Output curp.gif
+Output ./demo/curp.gif
 
 Require echo
 

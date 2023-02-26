@@ -1,0 +1,12 @@
+* A quick currency checker tool
+It can take many arguments. For help
+#+begin_src shell
+  ./bin/curp --help
+#+end_src
+** For building
+#+begin_src shell
+  make build
+#+end_src
+
+** Demo
+[[./build/curp.gif]]
