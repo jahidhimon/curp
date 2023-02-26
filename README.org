@@ -9,4 +9,4 @@ It can take many arguments. For help
 #+end_src
 
 ** Demo
-[[./build/curp.gif]]
+[[file:./demo/curp.gif]]
