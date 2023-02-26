@@ -1,11 +1,11 @@
-GOFILES := $(shell find . -name *.go -print)
-MAIN := ./cmd/main/
+GOFILES := $(shell find . -name '*.go' -print)
+MAIN := .
 
 .PHONY: build run clean
 
 build: $(GOFILES)
 	mkdir -p bin
-	go build -o bin/curp ./cmd/main/
+	go build -o bin/curp .
 
 run: 
 	go run $(MAIN)
