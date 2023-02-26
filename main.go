@@ -57,5 +57,5 @@ func main() {
 		*c_f, *c_t, *amount)
 
 	converted_value := scrape(url, *verbose)
-	fmt.Printf("%.3f", converted_value * float64(*amount))
+	fmt.Printf("%.3f\n", converted_value * float64(*amount))
 }
